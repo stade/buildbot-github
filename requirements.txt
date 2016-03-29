@@ -1,6 +1,8 @@
 buildbot==0.8.12
 buildbot-slave==0.8.12
 
-# txgithub may require libffi-dev
-# Install it with "sudo apt-get install libffi-dev".
+# txgithub may require libffi-dev,python-dev and libssl-dev
+# Install them with: "sudo apt-get install libffi-dev"
+# "sudo apt-get install python-dev" and
+# "sudo apt-get install libssl-dev"
 txgithub==15.0.0
